@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+    
+           
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            background-color:#ec0707;
+            color:rgb(41, 242, 249);
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        header nav a{
+            color:rgb(69, 239, 255);
+            text-decoration:none;
+            margin-left:20px;
+        }
+
+        .hero{
+            height:60vh;
+            background: linear-gradient(to right, #23529e, #2ad3c9);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            color:rgb(237, 211, 211);
+            flex-direction:column;
+        }
+
+        .hero h1{
+            font-size:48px;
+            margin-bottom:10px;
+        }
+
+        .hero p{
+            font-size:18px;
+        }
+
+        .projects{
+            background: linear-gradient(to right, rgb(255, 255, 255), rgb(216, 127, 142));
+            padding:60px 20px;
+            text-align:center;
+        }
+
+        .projects h2{
+            margin-bottom:40px;
+            font-size:30px;
+        }
+
+        .project-container{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+        }
+
+        .card{
+            background:white;
+            width:300px;
+            padding:10px;
+            border-radius:10px;
+            text-align:center;
+            
+        }
+
+        .card h3{
+            color:#2a7de1;
+            margin-bottom:10px;
+        }
+
+        .card p{
+            margin-bottom:10px;
+        }
+
+        .tech{
+            font-weight:bold;
+        }
+
+        footer{
+            background:#111;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>STUDENT.DEV</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Full-Stack Student</h1>
+        <p>Learning modern web technologies and building the future.</p>
+    </section>
+
+    <section class="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="card">
+                <h3>BCA Resource Hub</h3>
+                <p>A web page designed to help students find study materials easily.</p>
+                <p class="tech">HTML • CSS • Flex</p>
+            </div>
+
+            <div class="card">
+                <h3>Flipkart Clone</h3>
+                <p>A frontend practice project focusing on UI/UX and Flexbox layouts.</p>
+                <p class="tech">UI Design • CSS</p>
+            </div>
+
+            <div class="card">
+                <h3>Weather Dashboard</h3>
+                <p>Checking real-time data using external APIs and responsive grids.</p>
+                <p class="tech">JavaScript • API</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Student Portfolio - Designed with Flexbox
+    </footer>
+
+</body>
+</html>
